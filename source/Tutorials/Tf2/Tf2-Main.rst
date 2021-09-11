@@ -26,6 +26,7 @@ once for C++ and once for Python.
    Learning-About-Tf2-And-Time-Py
    Time-Travel-With-Tf2-Py
    Debugging-Tf2-Problems
+   Using-Stamped_datatypes-with-tf2_ros-MessageFilter
 
 Workspace Setup
 ---------------
@@ -73,3 +74,10 @@ Debugging tf2
 #. :ref:`Debugging tf2 problems <DebuggingTf2Problems>`.
 
    This tutorial teaches you about a systematic approach for debugging tf2 related problems.
+
+Using sensor messages with tf2
+-------------------------------
+
+#. :ref:`Using Stamped datatypes with tf2_ros::MessageFilter <UsingStampedDatatypesWithTf2rosMessageFilter>`.
+
+   This tutorial teaches you how to use tf2_ros::MessageFilter to process Stamped datatypes.
