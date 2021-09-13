@@ -23,10 +23,12 @@ once for C++ and once for Python.
    Writing-A-Tf2-Listener-Py
    Writing-A-Tf2-Listener-Cpp
    Adding-A-Frame-Py
+   Adding-A-Frame-Cpp
    Learning-About-Tf2-And-Time-Py
+   Learning-About-Tf2-And-Time-Cpp
    Time-Travel-With-Tf2-Py
-   Debugging-Tf2-Problems
-   Using-Stamped_datatypes-with-tf2_ros-MessageFilter
+   Time-Travel-With-Tf2-Cpp
+   Using-Stamped-Datatypes-With-Tf2-Ros-MessageFilter
 
 Workspace Setup
 ---------------
@@ -55,29 +57,22 @@ Learning tf2
 
    This tutorial teaches you how to use tf2 to get access to frame transformations.
 
-#. Adding a frame :ref:`(Python) <AddingAFramePy>`.
+#. Adding a frame :ref:`(Python) <AddingAFramePy>` :ref:`(C++) <AddingAFrameCpp>`.
 
    This tutorial teaches you how to add an extra fixed frame to tf2.
 
-#. Learning about tf2 and time :ref:`(Python) <LearningAboutTf2AndTimePy>`.
+#. Learning about tf2 and time :ref:`(Python) <LearningAboutTf2AndTimePy>` :ref:`(C++) <LearningAboutTf2AndTimeCpp>`.
 
    This tutorial teaches you to use the timeout in ``lookup_transform`` function to
    wait for a transform to be available on the tf2 tree.
 
-#. Time travel with tf2 :ref:`(Python) <TimeTravelWithTf2Py>`.
+#. Time travel with tf2 :ref:`(Python) <TimeTravelWithTf2Py>` :ref:`(C++) <TimeTravelWithTf2Cpp>`.
 
    This tutorial teaches you about advanced time travel features of tf2.
 
-Debugging tf2
---------------
-
-#. :ref:`Debugging tf2 problems <DebuggingTf2Problems>`.
-
-   This tutorial teaches you about a systematic approach for debugging tf2 related problems.
-
 Using sensor messages with tf2
--------------------------------
+------------------------------
 
-#. :ref:`Using Stamped datatypes with tf2_ros::MessageFilter <UsingStampedDatatypesWithTf2rosMessageFilter>`.
+#. :ref:`Using stamped datatypes with tf2_ros::MessageFilter <UsingStampedDatatypesWithTf2RosMessageFilter>`.
 
-   This tutorial teaches you how to use tf2_ros::MessageFilter to process Stamped datatypes.
+   This tutorial teaches you how to use tf2_ros::MessageFilter to process stamped datatypes.
